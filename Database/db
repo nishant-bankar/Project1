@@ -1,0 +1,76 @@
+-- MySQL Administrator dump 1.4
+--
+-- ------------------------------------------------------
+-- Server version	5.5.15
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+
+--
+-- Create schema ev_db
+--
+
+CREATE DATABASE IF NOT EXISTS ev_db;
+USE ev_db;
+
+--
+-- Definition of table `entry`
+--
+
+DROP TABLE IF EXISTS `entry`;
+CREATE TABLE `entry` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `mobile_no` bigint(20) unsigned NOT NULL,
+  `address` varchar(45) NOT NULL,
+  `budget` varchar(45) NOT NULL,
+  `model` varchar(45) NOT NULL,
+  `payment` varchar(45) NOT NULL,
+  `date` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=881 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `entry`
+--
+
+/*!40000 ALTER TABLE `entry` DISABLE KEYS */;
+INSERT INTO `entry` (`id`,`name`,`email`,`mobile_no`,`address`,`budget`,`model`,`payment`,`date`) VALUES 
+ (2,'Tushar','tushar@gmail.com',8767828350,'saptshrungi ','1 Lakh & Above','High Speed','Online','09/02//24'),
+ (3,'binod','binoa@45gmail.com',7878957844,' chambal gaov','80k-1 Lakh','High Speed','Cash','04/02//24'),
+ (10,'saloni','saloni@gmail.com',7894561235,'wksxjcmds ','80k-1 Lakh','','Online','09/02//24'),
+ (11,'saurabh','saurabh@gmail.com',9850849741,'sangam ','1 Lakh & Above','High Speed','Cash','09/02//24'),
+ (12,'sushant','sushant@gmail.com',8805781288,' nagar','1 Lakh & Above','High Speed','Cash','11/02//24'),
+ (134,'amol','amolpatil37@yahoo.com',7867564534,' pune	','1 Lakh & Above','High Speed','Cash','29/02//24'),
+ (175,'yogesh','palveyogesh96@gmail.com',9850849741,'sai ghar','80k-1 Lakh','High Speed','Cash','18/01//24'),
+ (202,'amol','amolpatil37@yahoo.com',9011009085,'ravet ','80k-1 Lakh','High Speed','EMI','29/02//24'),
+ (214,'Rajesh','rajesh@gmail.com',9874658123,' rajgad housing society','1 Lakh & Above','High Speed','EMI','04/02//24'),
+ (285,'tushar','tushar@gmail.com',7894561236,' saptshrungi','80k-1 Lakh','High Speed','Cash',''),
+ (444,'ravi','ravi12@gmail.com',7894561595,' nashik phata','1 Lakh & Above','High Speed','Cash',''),
+ (550,'yogo','yogo@gmail.com',7894561232,' sdfg','80k-1 Lakh','High Speed','Cash',''),
+ (650,'ram','ram@gmail.com',7894561235,' ayodhya','1 Lakh & Above','High Speed','Online',''),
+ (700,'amol','amolpatil37@yahoo.com',7867564534,' ravwt','80k-1 Lakh','High Speed','Cash','29/02//24'),
+ (750,'wsx','wsx@gmail.com',7894561235,'fgbn ','80k-1 Lakh','High Speed','EMI','19/02//24'),
+ (817,'saurabh','saurabhpalve02@gmail.com',7020351627,' sangam hou soc','1 Lakh & Above','Low Speed','EMI','27/02//24'),
+ (880,'saurabh','saurabh@gmail.com',7020351627,' sangam','80k-1 Lakh','High Speed','Online','');
+/*!40000 ALTER TABLE `entry` ENABLE KEYS */;
+
+
+
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
