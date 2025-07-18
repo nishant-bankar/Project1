@@ -1,5 +1,5 @@
 EV Bikes Showroom System | JAVA, MySQL, SWING
-•	Designed and developed a desktop application to manage operations of an electric vehicle (EV) bike showroom.
+•	Designed and developed a desktop application to manage an electric vehicle (EV) bike showroom operations.
 •	Implemented modules for customer management, bike inventory, sales records, and test drive bookings.
 •	Created an intuitive and responsive user interface using Java Swing for smooth navigation and data entry.
 •	Integrated MySQL as the backend database to store details of bikes, customers, purchases, and service records.
@@ -8,3 +8,6 @@ EV Bikes Showroom System | JAVA, MySQL, SWING
 
 Important Point
 Download MySQL Connector From Google
+
+Here are actual project images
+<img width="1920" height="1080" alt="login page" src="https://github.com/user-attachments/assets/d085193d-058d-4b19-a41b-53ce45b0412e" />
